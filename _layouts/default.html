@@ -1,3 +1,4 @@
+<!-- default.html -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,26 +6,26 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/style.css">
   </head>
-  <body style="background-color:#f7f7f7; font-family:sans-serif; margin:0;">
+  <body style="background-color:#f4f4f4; font-family:sans-serif; margin:0;">
     <header style="background:white; padding: 1em; text-align:center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
       <h1 style="color:#0A2F5C; margin:0;">Ruoyan Feng</h1>
       <nav style="margin-top: 0.5em;">
-        <a href="/" style="margin: 0 1em; color:#0A2F5C;">Home</a>
-        <a href="/projects.html" style="margin: 0 1em; color:#0A2F5C;">Projects</a>
-        <a href="/resume.html" style="margin: 0 1em; color:#0A2F5C;">Resume</a>
-        <a href="/aboutme.html" style="margin: 0 1em; color:#0A2F5C;">About Me</a>
-        <a href="/misc.html" style="margin: 0 1em; color:#0A2F5C;">Misc</a>
-        <a href="https://linkedin.com/in/tristan-feng-3159a2264" style="margin: 0 1em; color:#0A2F5C;">LinkedIn</a>
+        <a href="/" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">Home</a>
+        <a href="/projects.html" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">Projects</a>
+        <a href="/resume.html" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">Resume</a>
+        <a href="/aboutme.html" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">About Me</a>
+        <a href="/misc.html" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">Misc</a>
+        <a href="https://linkedin.com/in/tristan-feng-3159a2264" style="margin: 0 1em; color:#0A2F5C; text-decoration:none;">LinkedIn</a>
       </nav>
     </header>
 
-    <main style="padding: 2em; display: flex; justify-content: space-between; flex-wrap: wrap;">
+    <main style="padding: 2em; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2em;">
       <section style="flex: 1 1 60%; max-width: 60%;">
         {{ content }}
       </section>
-      <aside style="flex: 1 1 35%; text-align:center;">
+      <aside style="flex: 1 1 30%; text-align:center;">
         {% if page.image %}
-          <img src="{{ page.image }}" alt="Profile" style="width: 250px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+          <img src="{{ page.image }}" alt="Profile" style="width: 220px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         {% endif %}
       </aside>
     </main>
