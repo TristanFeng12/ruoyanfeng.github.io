@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        margin: 2rem;
+        max-width: 800px;
+        background: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+      }
+      header h1 {
+        margin: 0;
+        color: #4B0082;
+      }
+      nav a {
+        margin-right: 1rem;
+        color: #1a0dab;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        border-top: 1px solid #ddd;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+      .linkedin-icon {
+        margin-left: 10px;
+        color: #0a66c2;
+      }
+      .linkedin-icon:hover {
+        color: #084183;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/resume.html">Resume</a>
+        <a href="/about.html">About Me</a>
+        <a href="/misc.html">Misc</a>
+        <a href="https://linkedin.com/in/tristan-feng-3159a2264" target="_blank">LinkedIn</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      Contact: {{ site.email }}<br>
+      <a class="linkedin-icon" href="https://linkedin.com/in/tristan-feng-3159a2264" target="_blank">
+        <i class="fab fa-linkedin fa-lg"></i> LinkedIn
+      </a><br>
+      &copy; {{ site.title }}
+    </footer>
+  </body>
+</html>
