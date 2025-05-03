@@ -3,7 +3,6 @@ layout: page
 title: About Me
 permalink: /about.html
 ---
-<h2>About Me</h2>
 ## Academic Interests
 
 I'm currently pursuing a Master of Engineering in Financial Engineering at Cornell University, driven by my deep interest in:
