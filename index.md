@@ -27,5 +27,4 @@ permalink: /
 
 ---
 
-📫 **Contact:** rf468@cornell.edu  
-🔗 [LinkedIn](https://linkedin.com/in/tristan-feng-3159a2264)
+
