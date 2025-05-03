@@ -5,8 +5,7 @@ permalink: /
 ---
 
 <div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; background-color: #f5f5f5; padding: 2rem; border-radius: 12px;">
-  <img src="/assets/_DSC4211-1.jpg" alt="Ruoyan Feng" style="width: 180px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-
+  <img src="/assets/profile_photo_resized.jpg" alt="Ruoyan Feng" style="width:200px; border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.2);"/>
   <div style="flex: 1; min-width: 280px;">
     <h1 style="color: #003366;">Hello! I'm <strong>Ruoyan (Tristan) Feng</strong></h1>
     <p style="font-size: 1.1em; color: #003366;">Quant Researcher | Credit Risk Analyst | MFE @ Cornell</p>
