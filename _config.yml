@@ -1,0 +1,9 @@
+title: Ruoyan Feng
+email: rf468@cornell.edu
+description: >- 
+  Quantitative Researcher | MFE @ Cornell | Passionate about Data-Driven Investing
+baseurl: ""
+url: "https://ruoyanfeng.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
