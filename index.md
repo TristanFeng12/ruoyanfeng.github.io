@@ -4,7 +4,7 @@ title: Home
 ---
 
 ### Welcome!
-
+![Motorcycle Photo](/assets/motorcycle_banner.jpg)
 I'm **Ruoyan (Tristan) Feng**, a Master of Engineering in Financial Engineering student at **Cornell University**, with experience in **quant research**, **credit risk**, and **algorithmic trading**.
 
 - 📘 B.A. in Math & Economics @ NYU
