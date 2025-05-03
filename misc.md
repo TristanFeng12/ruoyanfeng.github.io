@@ -12,6 +12,6 @@ permalink: /misc.html
     <p><a href="/projects.html" style="background-color:#003366; color:white; padding:10px 18px; border-radius:6px; text-decoration:none;">Explore My Work</a></p>
   </div>
   
-  <img src="/assets/motorcycle_banner.JPG" alt="Motorcycling" style="width: 260px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 20px;" />
+  <img src="/assets/motorcycle_banner.jpg" alt="Motorcycling" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 20px;" />
 </div>
 
